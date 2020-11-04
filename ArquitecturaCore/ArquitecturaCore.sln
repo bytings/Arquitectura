@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArquitecturaCore.Infra.Data
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArquitecturaCore.UI.Mvc", "ArquitecturaCore.UI.Mvc", "{022FF564-0FAA-4A6D-A67F-956343D845B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaCore.Mvc", "ArquitecturaCore.Mvc\ArquitecturaCore.Mvc.csproj", "{ED51EEC0-A452-46E3-89DC-CC60ADC34C29}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED51EEC0-A452-46E3-89DC-CC60ADC34C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED51EEC0-A452-46E3-89DC-CC60ADC34C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED51EEC0-A452-46E3-89DC-CC60ADC34C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED51EEC0-A452-46E3-89DC-CC60ADC34C29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED51EEC0-A452-46E3-89DC-CC60ADC34C29} = {022FF564-0FAA-4A6D-A67F-956343D845B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DC23814-D9B6-4883-92EC-B6EBF7F592AF}
