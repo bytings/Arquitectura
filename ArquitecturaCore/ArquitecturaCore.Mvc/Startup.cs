@@ -12,6 +12,7 @@ using ArquitecturaCore.Mvc.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ArquitecturaCore.Infra.Data.Context;
 
 namespace ArquitecturaCore.Mvc
 {
@@ -32,6 +33,12 @@ namespace ArquitecturaCore.Mvc
                     Configuration.GetConnectionString("UniversityIdentityDBConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddDbContext<UniversityDBContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("UniversityDBConnection"));
+            });
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
