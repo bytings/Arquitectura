@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquitecturaCore.Infra.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaCore.Application", "ArquitecturaCore.Application\ArquitecturaCore.Application.csproj", "{C822186C-664E-41FC-9F2B-58E1B832F015}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaCore.Infra.IoC", "ArquitecturaCore.Infra.IoC\ArquitecturaCore.Infra.IoC.csproj", "{F6B56712-0D8C-41E1-BFD3-0A671C24F423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{C822186C-664E-41FC-9F2B-58E1B832F015}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C822186C-664E-41FC-9F2B-58E1B832F015}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C822186C-664E-41FC-9F2B-58E1B832F015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B56712-0D8C-41E1-BFD3-0A671C24F423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B56712-0D8C-41E1-BFD3-0A671C24F423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B56712-0D8C-41E1-BFD3-0A671C24F423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B56712-0D8C-41E1-BFD3-0A671C24F423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{B1CBB421-8E18-4A12-B097-A05D22DAEC5F} = {87A9516C-CF03-4ECA-9F43-63CB4F07BBA3}
 		{9EF62321-2DF1-4F3C-B96D-D4FA88F416C5} = {C81E5CF4-E4FE-465E-86B7-E8C71E273DA5}
 		{C822186C-664E-41FC-9F2B-58E1B832F015} = {3D92ECD8-7C0F-4F32-9106-C949C7816B9D}
+		{F6B56712-0D8C-41E1-BFD3-0A671C24F423} = {29651A4E-F69A-4C17-911A-1E32288EC1C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DC23814-D9B6-4883-92EC-B6EBF7F592AF}
