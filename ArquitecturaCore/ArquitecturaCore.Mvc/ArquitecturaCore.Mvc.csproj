@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArquitecturaCore.Infra.Data\ArquitecturaCore.Infra.Data.csproj" />
+    <ProjectReference Include="..\ArquitecturaCore.Infra.IoC\ArquitecturaCore.Infra.IoC.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
