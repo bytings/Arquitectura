@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquitecturaCore.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquitecturaCore.Infra.Data", "ArquitecturaCore.Infra.Data\ArquitecturaCore.Infra.Data.csproj", "{9EF62321-2DF1-4F3C-B96D-D4FA88F416C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaCore.Application", "ArquitecturaCore.Application\ArquitecturaCore.Application.csproj", "{C822186C-664E-41FC-9F2B-58E1B832F015}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquitecturaCore.Application", "ArquitecturaCore.Application\ArquitecturaCore.Application.csproj", "{C822186C-664E-41FC-9F2B-58E1B832F015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaCore.Infra.IoC", "ArquitecturaCore.Infra.IoC\ArquitecturaCore.Infra.IoC.csproj", "{F6B56712-0D8C-41E1-BFD3-0A671C24F423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquitecturaCore.Infra.IoC", "ArquitecturaCore.Infra.IoC\ArquitecturaCore.Infra.IoC.csproj", "{F6B56712-0D8C-41E1-BFD3-0A671C24F423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{CA931674-D327-401D-B1E3-66A8665ECAF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F6BD8C2D-7D80-4C50-933B-7E50761F9047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
