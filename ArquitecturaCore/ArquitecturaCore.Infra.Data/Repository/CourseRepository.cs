@@ -3,6 +3,7 @@ using ArquitecturaCore.Domain.Models;
 using ArquitecturaCore.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ArquitecturaCore.Infra.Data.Repository
@@ -22,7 +23,7 @@ namespace ArquitecturaCore.Infra.Data.Repository
             _ctx.SaveChanges();
         }
 
-        public IEnumerable<Course> GetCourses()
+        public IQueryable<Course> GetCourses()
         {
             return _ctx.Courses;
         }

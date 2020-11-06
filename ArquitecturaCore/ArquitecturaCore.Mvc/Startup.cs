@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using ArquitecturaCore.Infra.Data.Context;
 using ArquitecturaCore.Infra.IoC;
 using MediatR;
+using ArquitecturaCore.Mvc.Configurations;
 
 namespace ArquitecturaCore.Mvc
 {
@@ -44,6 +45,7 @@ namespace ArquitecturaCore.Mvc
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddMediatR(typeof(Startup));
+            services.RegisterAutoMapper();
             RegisterServices(services);
         }
 

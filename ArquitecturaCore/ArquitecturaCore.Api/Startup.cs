@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ArquitecturaCore.Api.Configurations;
 using ArquitecturaCore.Infra.Data.Context;
 using ArquitecturaCore.Infra.IoC;
 using MediatR;
@@ -42,6 +43,8 @@ namespace ArquitecturaCore.Api
             });
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
 
             RegisterServices(services);
         }
