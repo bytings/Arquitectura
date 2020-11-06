@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArquitecturaCore.Infra.Data\ArquitecturaCore.Infra.Data.csproj" />
     <ProjectReference Include="..\ArquitecturaCore.Infra.IoC\ArquitecturaCore.Infra.IoC.csproj" />
   </ItemGroup>
 

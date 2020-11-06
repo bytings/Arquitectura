@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArquitecturaCore.Application\ArquitecturaCore.Application.csproj" />
+    <ProjectReference Include="..\ArquitecturaCore.Infra.Bus\ArquitecturaCore.Infra.Bus.csproj" />
     <ProjectReference Include="..\ArquitecturaCore.Infra.Data\ArquitecturaCore.Infra.Data.csproj" />
   </ItemGroup>
 
