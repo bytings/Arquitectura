@@ -25,6 +25,7 @@ namespace ArquitecturaCore.Infra.IoC
 
             // Domain Handlers
             services.AddScoped<IRequestHandler<CreateCourseCommand, bool>, CourseCommandHandler>();
+            //services.AddScoped<IRequestHandler<DeleteCourseCommand, bool>, CourseCommandHandler>();
 
             // Application Layer
             services.AddScoped<ICourseService, CourseService>();

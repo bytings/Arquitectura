@@ -10,5 +10,7 @@ namespace ArquitecturaCore.Domain.Interfaces
     {
         IQueryable<Course> GetCourses();
         void Add(Course course);
+
+        void Delete(Course course);
     }
 }

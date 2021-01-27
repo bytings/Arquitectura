@@ -23,6 +23,12 @@ namespace ArquitecturaCore.Infra.Data.Repository
             _ctx.SaveChanges();
         }
 
+        public void Delete(Course course)
+        {
+            _ctx.Courses.Remove(course);
+            _ctx.SaveChanges();
+        }
+
         public IQueryable<Course> GetCourses()
         {
             return _ctx.Courses;
